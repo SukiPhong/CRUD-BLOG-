@@ -1,0 +1,37 @@
+GET  http://localhost:8000/api-docs
+# POST http://localhost:8000/auth/
+# Content-Type: application/json
+
+# {
+#     "email": "phong@gmail.com",
+#     "password": "password222",
+#     "username": "phong3"
+# }
+
+
+# POST http://localhost:8000/auth/login
+# Content-Type: application/json
+
+# {
+#     "email": "phong1@gmail.com",
+#     "password": "password222"
+# }
+
+# GET http://localhost:8000/auth/Current
+# Content-Type: application/json
+
+# {
+#     "token" :
+#     "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MTNjMDMwYjBmNzE1MTA3MTdjZGI3MyIsImlhdCI6MTcxMzY4NzI5NywiZXhwIjoxNzE0MjkyMDk3fQ.ex_8vNhLGgUoAQOXvwI05DiJ64jmxYJcmK-fGF7D-sc"
+# }
+
+//logout
+# GET http://localhost:8000/auth/logout
+//
+
+# GET http://localhost:8000/blog/list
+# Content-Type: application/json 
+# {
+#     "token":
+
+# }
